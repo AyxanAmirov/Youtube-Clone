@@ -1,0 +1,276 @@
+.account-body {
+  padding: 0 30px;
+}
+.profil-body {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f6f6f6;
+}
+.account-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+}
+.account-inform {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.account-name {
+  font-size: 35px;
+}
+.account-email {
+  font-size: 14px;
+  color: #606060;
+}
+.ferdilesdir {
+  padding: 10px 13px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+.ferdilesdir:hover {
+  background-color: #e5e5e5;
+}
+.gap-10 {
+  gap: 10px;
+}
+.subs-body {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+}
+.abunelikler {
+  margin-top: 20px;
+  padding: 40px;
+}
+.sub {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.sub-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.channel-inform {
+  text-align: center;
+}
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.subscribers {
+  font-size: 13px;
+  color: #969696;
+  margin-top: 5px;
+}
+.subscribe {
+  box-sizing: border-box;
+  margin-top: 20px;
+  font-size: 15px;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+.look-all {
+  color: #0000ee;
+  padding: 10px;
+  border-radius: 20px;
+}
+.look-all:hover {
+  background-color: #def1ff;
+}
+.d-block-flex {
+  display: flex;
+}
+@media screen and (max-width: 755px) {
+  .subscribe {
+    font-size: 10px;
+  }
+  .account-image {
+    width: 120px;
+    height: 120px;
+  }
+  .account-name {
+    font-size: 28px;
+  }
+  .ferdilesdir {
+    padding: 7px 9px;
+    font-size: 13px;
+  }
+  .account-subs,
+  .look-all {
+    font-size: 16px;
+  }
+  .sub-img {
+    width: 85px;
+    height: 85px;
+  }
+  .sub-title {
+    font-size: 12px;
+  }
+  .subscribers {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 915px) {
+  .account-inform {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 811px) {
+  .account-inform {
+    width: 375px;
+  }
+}
+@media screen and (max-width: 717px) {
+  .sub-img {
+    width: 65px;
+    height: 65px;
+  }
+  .sub-title {
+    font-size: 9px;
+  }
+  .subscribers {
+    font-size: 7px;
+  }
+  .subscribe {
+    font-size: 8px;
+  }
+  .account-image {
+    width: 85px;
+    height: 85px;
+  }
+  .account-name {
+    font-size: 18px;
+  }
+  .account-email {
+    font-size: 10px;
+  }
+  .ferdilesdir {
+    padding: 5px 8px;
+    font-size: 9px;
+  }
+  .account-subs,
+  .look-all {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .account-inform {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 626px) {
+  .sub-img {
+    width: 50px;
+    height: 50px;
+  }
+  .subscribe {
+    padding: 5px;
+
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .subs-body {
+    gap: 20px;
+  }
+  .account-name {
+    font-size: 13px;
+  }
+  .account-image {
+    width: 60px;
+    height: 60px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 498px) {
+  .subs-body {
+    display: block;
+  }
+  .channel-inform {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subscribe {
+    width: 50px;
+  }
+  .account-subs,
+  .look-all {
+    font-size: 8px;
+  }
+  .ferdilesdir {
+    padding: 5px 6px;
+    font-size: 7px;
+  }
+  .account-image {
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
+  }
+  .account-name {
+    font-size: 10px;
+  }
+  .account-email {
+    font-size: 7px;
+  }
+}
+@media screen and (max-width: 476px) {
+  .account-inform {
+    width: 176px;
+  }
+}
+@media screen and (max-width: 428px) {
+  .account-inform {
+    width: 145px;
+  }
+  .ferdilesdir {
+    padding: 5px 6px;
+    font-size: 6px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .ferdilesdir {
+    padding: 3px 4px;
+    margin-bottom: 10px;
+  }
+  .account-subs,
+  .look-all {
+    font-size: 7px;
+  }
+  .sub-img {
+    width: 35px;
+    height: 35px;
+  }
+  .d-block-flex {
+    display: block;
+  }
+}
+.login-account {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.log-iconn {
+  font-size: 70px;
+}

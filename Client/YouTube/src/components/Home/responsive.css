@@ -1,0 +1,75 @@
+@media screen and (max-width: 1286px) {
+  .toggleOff {
+    display: none;
+  }
+  .menu-bar-icon {
+    pointer-events: none;
+  }
+  .grid-container {
+    width: 100%;
+    padding-right: 15px;
+  }
+  .resp {
+    min-width: 280px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 785px) {
+  .toggleOn {
+    display: none;
+  }
+  .just-content {
+    justify-content: center;
+  }
+  .center-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 701px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  #search-data {
+    display: none;
+  }
+  .search-icon-res {
+    display: block;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+  }
+  .d-none-res {
+    display: none;
+  }
+}
+@media screen and (max-width: 426px) {
+  .michraphone {
+    display: none;
+  }
+  .notice {
+    display: none;
+  }
+  .video-title,
+  .channel-title,
+  .watch-time {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .profil-settings {
+    width: 100%;
+    inset: 0;
+    position: fixed;
+    border-radius: 0;
+  }
+  .hesab {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.476);
+  }
+}

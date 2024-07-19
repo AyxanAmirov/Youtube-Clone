@@ -1,0 +1,11 @@
+.nav-body {
+  height: 60px;
+}
+.grid-container {
+  display: grid;
+  width: 95%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 45px;
+  margin-inline: auto;
+}

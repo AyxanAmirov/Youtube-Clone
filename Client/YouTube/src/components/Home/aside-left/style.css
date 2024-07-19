@@ -1,0 +1,83 @@
+.left-menu {
+  height: 100vh;
+  max-width: 250px;
+  padding-right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 10px;
+  position: fixed;
+  background-color: #fff;
+  top: 56px;
+  padding-bottom: 20px;
+  overflow-y: scroll;
+  z-index: 99;
+}
+
+.left-items {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c6c4c4;
+}
+#search-data {
+  display: flex;
+}
+.icon-txt {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  align-items: center;
+}
+.active {
+  background-color: #ececec;
+  font-weight: 700;
+}
+.active .left-icons {
+  color: black;
+}
+.icon-txt:hover {
+  background-color: #ececec;
+}
+.icon-txt-2 {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.left-icons {
+  font-size: 18px;
+  color: #00000033;
+}
+.right-arrow {
+  font-size: 12px;
+  align-self: center;
+}
+.kanal-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* scroll design */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

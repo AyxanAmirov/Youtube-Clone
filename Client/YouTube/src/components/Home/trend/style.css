@@ -1,0 +1,25 @@
+.video-cover {
+  width: 100%;
+  border-radius: 10px;
+}
+.video-inform {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+.text-inform {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.channel {
+  width: 48px;
+  border-radius: 50%;
+}
+.watch-time {
+  display: flex;
+  gap: 10px;
+}
+.channel-title {
+  color: #000;
+}

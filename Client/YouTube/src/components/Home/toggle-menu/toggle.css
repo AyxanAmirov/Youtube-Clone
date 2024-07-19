@@ -1,0 +1,30 @@
+.toggle-items {
+  width: 65px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  background-color: transparent;
+}
+.left-toggle {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.toggle-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+}
+.d-flexx {
+  display: flex;
+  flex-direction: column;
+}
+.is-active {
+  font-weight: 700;
+  background-color: transparent;
+}
+.is-active .left-icons {
+  color: black;
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 992px) {
+  .sign-in {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .information-input {
+    height: 38px;
+  }
+  .google {
+    width: 44px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .submit-resp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .btn{
+    width: 100px;
+  }
+}
